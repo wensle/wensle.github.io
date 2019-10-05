@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Data Mining</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <script src="" async defer></script>
+    <div>
+        <h1>Inhoudsopgave</h1>
+        <ol>
+            <li>
+                <a href="#introductie">Introductie</a>
+            </li>
+            <li>
+                <a href="#menm">Materiaal en methoden</a>
+            </li>
+            <li>
+                <a href="#conclusie">Conclusie</a>
+            </li>
+        </ol>
+    </div>
+    <div class="container">
+        <h1><a name="introductie">Voorspellen van locatie genen</a></h1>
+        <h2>Het probleem</h2>
+        <p>Hetzelfde gen kan meerdere verschillende waarden bevatten voor hetzelfde attribuut.</p>
+        <h2>Welke eigenschappen van een gen hebben invloed op de locatie van een gen?</h2>
+        <p></p>
+        <h2>Mogelijke oplossing om de data samen te voegen</h2>
+        <p>Per waarde van elk attribuut een nieuw attribuut maken die de combinatie van waarde van het attribuut en het attribuut zelf representeert.</p>
+        <div>
+            <img src="https://www.researchgate.net/profile/Saleh_Abu-Soud/publication/278967502/figure/fig3/AS:669063378374682@1536528548754/Schema-of-the-KDD-Cup-2001-genes-data-after-normalization.png" alt="">
+        </div>
+        <h2>Misschien met permutaties werken...</h2>
+        <table>
+            <tr>
+                <td>Essential</td>
+            </tr>
+        </table>
+        <h2>Conclusie</h2>
+        <div class="center">
+            <img class="grid_img" src="https://live.staticflickr.com/5492/9068226747_28e468667f_k.jpg" alt="">
+            <img class="grid_img" src="https://live.staticflickr.com/3515/3935560865_654a855b22_b.jpg" alt="">
+        </div>
+        <button id="speciale_button">Klik hier om naar de website van Magetrain te gaan</button>
+    </div>
+    <div>
+        <form action="">
+            <span>Voer een getal in:</span>
+            <input id="getal1" type="text">
+            <span>+</span>
+            <input id="getal2" type="text">
+            <span>=</span>
+            <input id="getal3" type="text">
+            <span class="error" aria-live="polite"></span>
+            <input type="button" value="rekenen!" onclick="validate()">
+        </form>
+    </div>
+    <div>
+        <h2>Het beste gesprek ooit</h2>
+        <p id="animals"></p>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>

@@ -1,0 +1,31 @@
+@media (max-width: 12450px) {
+    body {
+        width: 800px;
+        margin: 0 auto;
+    }
+    div {
+        border: 1px solid black;
+    }
+    img {
+        width: 100%
+    }
+    .grid_img {
+        display: inline-block;
+        padding: 9px;
+        width: calc(50% - 20px);
+    }
+}
+
+@media (min-width: 500px) {}
+
+.container button {
+    display: block;
+}
+
+.bg-groen {
+    background-color: lightgreen;
+}
+
+input {
+    display: block;
+}
