@@ -23,4 +23,9 @@ export default {
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css?family=Old+Standard+TT|Roboto+Mono&display=swap");
+
+#app {
+  
+}
 </style>
