@@ -3,7 +3,8 @@
     <!-- <AddTodo v-on:add-todo="addTodo" /> -->
     <b-table striped hover :items="todos" :fields="tableColumns">
       <template v-slot:cell(completed)="data">
-        <input type="checkbox" v-model="data.item.completed" />
+        <!-- <input type="checkbox" v-model="data.item.completed" /> -->
+        <TodoItem v-bind:todo="data.item.completed" />
       </template>
       <template v-slot:cell(title)="data">
         <input type="text" v-model="data.item.title" />
@@ -17,18 +18,20 @@
 </template>
 
 <script>
-import Todos from "@/components/Todos";
+import TodoCompleted from "@/components/TodoCompleted";
+import TodoItem from "@/components/TodoItem";
 // import AddTodo from "@/components/AddTodo";
 export default {
   name: "Table",
   components: {
-    Todos
+    TodoCompleted,
+    TodoItem
     // AddTodo
   },
   data() {
     return {
       tableColumns: [
-        { key: "completed", label: "", sortable: false },
+        { key: "completed", label: "Completed", sortable: false },
         { key: "userId", label: "Title", sortable: false },
         { key: "title", label: "Description", sortable: false }
       ]
