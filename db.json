@@ -1,92 +1,94 @@
-[
-  {
-    "id": 1,
-    "title": "cleaning",
-    "start": "",
-    "duration": 0.5,
-    "category": "chores",
-    "date": "10/12/2019",
-    "completed": false
-  },
-  {
-    "id": 2,
-    "title": "go to the gym",
-    "start": "",
-    "duration": 1.0,
-    "category": "chores",
-    "date": "10/12/2019",
-    "completed": false
-  },
-  {
-    "id": 3,
-    "title": "groceries, lunch, shower",
-    "start": "",
-    "duration": 1.5,
-    "category": "chores",
-    "date": "10/12/2019",
-    "completed": false
-  },
-  {
-    "id": 4,
-    "title": "write essay",
-    "start": "",
-    "duration": 1.0,
-    "category": "school",
-    "date": "10/12/2019",
-    "completed": false
-  },
-  {
-    "id": 5,
-    "title": "dinner",
-    "start": "",
-    "duration": 1.0,
-    "category": "chores",
-    "date": "10/12/2019",
-    "completed": false
-  },
-  {
-    "id": 6,
-    "title": "cleaning",
-    "start": "",
-    "duration": 0.5,
-    "category": "chores",
-    "date": "10/12/2019",
-    "completed": false
-  },
-  {
-    "id": 7,
-    "title": "study BESM Ch. 1",
-    "start": "",
-    "duration": 1.5,
-    "category": "school",
-    "date": "10/12/2019",
-    "completed": false
-  },
-  {
-    "id": 8,
-    "title": "relaxing",
-    "start": "",
-    "duration": 1,
-    "category": "fun",
-    "date": "10/12/2019",
-    "completed": false
-  },
-  {
-    "id": 9,
-    "title": "listen to music",
-    "start": "",
-    "duration": 0.5,
-    "category": "fun",
-    "date": "10/12/2019",
-    "completed": false
-  },
-  {
-    "id": 10,
-    "title": "cooking",
-    "start": "",
-    "duration": 1.0,
-    "category": "chores",
-    "date": "10/12/2019",
-    "completed": false
-  }
-]
+"todos": {
+  [
+    {
+      "id": 1,
+      "title": "cleaning",
+      "start": "",
+      "duration": 0.5,
+      "category": "chores",
+      "date": "10/12/2019",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "title": "go to the gym",
+      "start": "",
+      "duration": 1.0,
+      "category": "chores",
+      "date": "10/12/2019",
+      "completed": false
+    },
+    {
+      "id": 3,
+      "title": "groceries, lunch, shower",
+      "start": "",
+      "duration": 1.5,
+      "category": "chores",
+      "date": "10/12/2019",
+      "completed": false
+    },
+    {
+      "id": 4,
+      "title": "write essay",
+      "start": "",
+      "duration": 1.0,
+      "category": "school",
+      "date": "10/12/2019",
+      "completed": false
+    },
+    {
+      "id": 5,
+      "title": "dinner",
+      "start": "",
+      "duration": 1.0,
+      "category": "chores",
+      "date": "10/12/2019",
+      "completed": false
+    },
+    {
+      "id": 6,
+      "title": "cleaning",
+      "start": "",
+      "duration": 0.5,
+      "category": "chores",
+      "date": "10/12/2019",
+      "completed": false
+    },
+    {
+      "id": 7,
+      "title": "study BESM Ch. 1",
+      "start": "",
+      "duration": 1.5,
+      "category": "school",
+      "date": "10/12/2019",
+      "completed": false
+    },
+    {
+      "id": 8,
+      "title": "relaxing",
+      "start": "",
+      "duration": 1,
+      "category": "fun",
+      "date": "10/12/2019",
+      "completed": false
+    },
+    {
+      "id": 9,
+      "title": "listen to music",
+      "start": "",
+      "duration": 0.5,
+      "category": "fun",
+      "date": "10/12/2019",
+      "completed": false
+    },
+    {
+      "id": 10,
+      "title": "cooking",
+      "start": "",
+      "duration": 1.0,
+      "category": "chores",
+      "date": "10/12/2019",
+      "completed": false
+    }
+  ]
+}
