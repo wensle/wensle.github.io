@@ -1,7 +1,6 @@
 <template>
   <div>
     <input type="text" v-bind:class="{' is-complete':todo}" v-model="todo" />
-    <button @click="$emit('del-todo', todo.id)" class="del">x</button>
   </div>
 </template>
 
@@ -18,4 +17,19 @@ export default {
 </script>
 
 <style scoped>
+table td input {
+  width: 100%;
+}
+input {
+  display: block;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0);
+}
+td {
+  margin: 0;
+  padding: 0;
+}
 </style>

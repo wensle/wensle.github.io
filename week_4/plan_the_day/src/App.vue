@@ -24,8 +24,5 @@ export default {
 
 <style>
 @import url("https://fonts.googleapis.com/css?family=Old+Standard+TT|Roboto+Mono&display=swap");
-
-#app {
-  
-}
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 </style>

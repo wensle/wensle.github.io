@@ -22,14 +22,14 @@ export default {
   methods: {
     deleteTodo(id) {
       axios
-        .delete(`https://jsonplaceholder.typicode.com/todos/${id}`)
+        .delete(`http://my-json-server.typicode.com/wensle/wensle.github.io/todos${id}`)
         .then(res => (this.todos = this.todos.filter(todo => todo.id !== id)))
         .catch(err => console.log(err));
     },
     addTodo(newTodo) {
       const { title, completed } = newTodo;
       axios
-        .post("https://jsonplaceholder.typicode.com/todos", {
+        .post("http://my-json-server.typicode.com/wensle/wensle.github.io/todos", {
           title,
           completed
         })
@@ -39,7 +39,7 @@ export default {
   },
   created() {
     axios
-      .get("https://jsonplaceholder.typicode.com/todos?_limit=5")
+      .get("http://my-json-server.typicode.com/wensle/wensle.github.io/todos")
       .then(res => (this.todos = res.data))
       .catch(err => console.log(err));
   }

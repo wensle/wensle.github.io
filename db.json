@@ -3,91 +3,81 @@
     {
       "id": 1,
       "title": "cleaning",
-      "start": "",
+      "start": "2019-12-1013:00:00",
       "duration": 0.5,
       "category": "chores",
-      "date": "10/12/2019",
       "completed": false
     },
     {
       "id": 2,
       "title": "go to the gym",
-      "start": "",
+      "start": "2019-12-1007:00:00",
       "duration": 1.0,
       "category": "chores",
-      "date": "10/12/2019",
       "completed": false
     },
     {
       "id": 3,
       "title": "groceries, lunch, shower",
-      "start": "",
+      "start": "2019-12-1011:00:00",
       "duration": 1.5,
       "category": "chores",
-      "date": "10/12/2019",
       "completed": false
     },
     {
       "id": 4,
       "title": "write essay",
-      "start": "",
+      "start": "2019-12-1009:00:00",
       "duration": 1.0,
       "category": "school",
-      "date": "10/12/2019",
       "completed": false
     },
     {
       "id": 5,
       "title": "dinner",
-      "start": "",
+      "start": "2019-12-1017:30:00",
       "duration": 1.0,
       "category": "chores",
-      "date": "10/12/2019",
       "completed": false
     },
     {
       "id": 6,
       "title": "cleaning",
-      "start": "",
+      "start": "2019-12-1018:00:00",
       "duration": 0.5,
       "category": "chores",
-      "date": "10/12/2019",
       "completed": false
     },
     {
       "id": 7,
       "title": "study BESM Ch. 1",
-      "start": "",
+      "start": "2019-12-1020:00:00",
       "duration": 1.5,
       "category": "school",
-      "date": "10/12/2019",
       "completed": false
     },
     {
       "id": 8,
       "title": "relaxing",
-      "start": "",
+      "start": "2019-12-1018:30:00",
       "duration": 1,
       "category": "fun",
-      "date": "10/12/2019",
       "completed": false
     },
     {
       "id": 9,
       "title": "listen to music",
-      "start": "",
+      "start": "2019-12-1008:30:00",
       "duration": 0.5,
       "category": "fun",
-      "date": "10/12/2019",
       "completed": false
     },
     {
       "id": 10,
       "title": "cooking",
-      "start": "",
+      "start": "2019-12-1017:00:00",
       "duration": 1.0,
       "category": "chores",
-      "date": "10/12/2019",
       "completed": false
     }
   ]
